@@ -1,0 +1,8 @@
+Name,d,accuracy,entropy,TIME
+Snap Star (shot wrmp),5,0.898±nan,1.152±nan,2588.0
+Snap Star (new wrmp),5,0.898±nan,1.136±nan,2369.0
+Snap Ensemble,5,0.902±nan,0.330±nan,2036.0
+Ensemble,5,0.918±nan,0.229±nan,2052.0
+Classic Star (no wrmp),5,0.922±nan,0.229±nan,2589.0
+Classic Star (new wrmp),5,0.923±nan,0.228±nan,2239.0
+Big NN,5,0.910±nan,0.481±nan,1560.0
