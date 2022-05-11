@@ -10,6 +10,13 @@ Please cite our work if you find our results useful in your research:
 
 ## Overview
 
+In short, the procedure we proposed can be described as follows: we run  𝑑  independent learning processes of neural networks, obtaining empirical risk minimizers (black box), freeze their weights, after that we initialize a new model and connect all  𝑑+1  models with a layer of convex coefficients, after that we start the process of optimizing all non-frozen parameters (red elemenents). This whole procedure can be viewed as a search for an empirical minimizer in all possible  𝑑 -dimensional simplices spanned by  𝑑 -minimizers and a class of neural networks. As is known, the minimization of the empirical risk with respect to the convex hull is not optimal in the same way as with respect to the original class of functions. Our method, however, minimizes over some set intermediate between the original class of functions and its convex hull, allowing us to combine the advantages of model ensembling and the star procedure.
+
+<img width="542" alt="image" src="https://user-images.githubusercontent.com/58306690/167785574-9ebd9b2b-0c98-4801-9e08-cc648ac7f080.png">
+
+
+The algorithm proposed by us can be perceived as a new way of training neural networks of block architecture and as a new way of model aggregation. See the article for details.
+
 ## Dependencies
 
 ```
