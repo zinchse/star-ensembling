@@ -57,4 +57,4 @@ BOSTON HOUSE PRICING downloading is handled by `sklearn.datasets`, FMNIST is had
 
 (results after 25 epoch by using parameter d = 5)
 
-These scores are 10-11 according to the dataset FASHION MNIST in the [ledearbord](https://paperswithcode.com/sota/image-classification-on-fashion-mnist).
+These scores are 10-11 according to the dataset FASHION MNIST in the [leaderbord](https://paperswithcode.com/sota/image-classification-on-fashion-mnist).
