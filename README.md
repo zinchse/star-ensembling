@@ -2,11 +2,9 @@
 
 This repository contains the code to reproduce the experiments in the paper
 
-[Star algorithm for NN ensembling](https://google.com)
+Star algorithm for NN ensembling
 
-by Zinchenko Sergei and Dmitriy Lishudi
-
-Please cite our work if you find our results useful in your research:
+by Anonymous Author(s)
 
 ## Abstract
 
