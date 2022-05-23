@@ -8,6 +8,10 @@ by Zinchenko Sergei and Dmitriy Lishudi
 
 Please cite our work if you find our results useful in your research:
 
+## Abstract
+
+Neural network ensembling is a common and robust way to increase model efficiency. In this paper, we propose a new neural network ensemble algorithm based on Audibert's empirical star algorithm. We provide optimal theoretical minimax bound on the excess squared risk. Additionally, we empirically study this algorithm on regression and classification tasks and compare it to most popular ensembling methods.
+
 ## Overview
 
 In short, the procedure we proposed can be described as follows: we run  𝑑  independent learning processes of neural networks, obtaining empirical risk minimizers (black box), freeze their weights, after that we initialize a new model and connect all  𝑑+1  models with a layer of convex coefficients, after that we start the process of optimizing all non-frozen parameters (red elemenents). This whole procedure can be viewed as a search for an empirical minimizer in all possible  𝑑 -dimensional simplices spanned by  𝑑 -minimizers and a class of neural networks. As is known, the minimization of the empirical risk with respect to the convex hull is not optimal in the same way as with respect to the original class of functions. Our method, however, minimizes over some set intermediate between the original class of functions and its convex hull, allowing us to combine the advantages of model ensembling and the star procedure.
@@ -19,12 +23,23 @@ The algorithm proposed by us can be perceived as a new way of training neural ne
 
 ## Dependencies
 
+FMNIST & BOSTON:
+
 ```
 torch==1.10.2
 torchvision==0.11.3
 numpy==1.20.3
 pandas==1.4.1
 sklearn==1.0.2
+```
+
+MILLION SONG:
+
+```
+torch==1.11.0
+numpy==1.21.6
+pandas==1.3.5
+CUDA=11.3.1
 ```
 
 
