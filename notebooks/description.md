@@ -17,4 +17,8 @@ generate: `FMNIST_ep(15)_p(0.0)_lr(0.001).csv` (and full runs history  `FMNIST_r
 
 generate: `FMNIST_ep(25)_p(0.0)_lr(0.001).csv` (and full runs history  `FMNIST_results_v3.csv`) 
 
+## MSD Star Algorithm.ipynb
+
+generate: depending on the choice of parameter EPOCHS will create tables  `MSD 30 epoch results.csv` or `MSD 10 epoch results.csv`
+
 
