@@ -54,7 +54,8 @@ MILLION SONG DATASET can be downloaded from the [link](https://archive.ics.uci.e
 +-- tables/
 |   +-- BOSTON/ (tables of results for BOSTON HOUSE PRICING)
 |   +-- FMNIST/ (tables of results for FASHION MNIST)
-+-- notebooks (jupyter notebooks used to generate tables) 
+|   +-- MSD/ (tables of results for MILLION SONG DATASET)
++-- notebooks (jupyter notebooks used to generate tables and their short description in the file description.md) 
 ```
 
 ## Best Results
