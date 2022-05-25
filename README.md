@@ -2,7 +2,7 @@
 
 This repository contains the code to reproduce the experiments in the paper
 
-Star algorithm for NN ensembling
+**Star algorithm for NN ensembling**
 
 by Anonymous Author(s)
 
@@ -45,6 +45,8 @@ CUDA=11.3.1
 
 BOSTON HOUSE PRICING downloading is handled by `sklearn.datasets`, FMNIST is hadled by `torch.torchvision`.
 
+MILLION SONG DATASET can be downloaded from the [link](https://archive.ics.uci.edu/ml/datasets/yearpredictionmsd).
+
 
 ## File structure
 
@@ -70,5 +72,6 @@ BOSTON HOUSE PRICING downloading is handled by `sklearn.datasets`, FMNIST is had
 
 (results after 25 epoch by using parameter d = 5)
 
-These scores are 10-11 according to the dataset FASHION MNIST in the [leaderbord](https://paperswithcode.com/sota/image-classification-on-fashion-mnist).
+These scores are 10-11 according to the dataset FASHION MNIST in the [leaderboard](https://paperswithcode.com/sota/image-classification-on-fashion-mnist).
+
 This table corresponds to the tables/FMNIST/FMNIST_ep(25)_p(0.0)_lr(0.001).csv
