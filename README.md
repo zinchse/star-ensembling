@@ -4,7 +4,7 @@ This repository contains the code to reproduce the experiments in the paper
 
 **Star algorithm for NN ensembling**
 
-by Anonymous Author(s)
+by Zinchenko Sergey and Dmitry Lishudi
 
 ## Abstract
 
