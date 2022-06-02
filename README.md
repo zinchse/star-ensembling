@@ -2,7 +2,7 @@
 
 This repository contains the code to reproduce the experiments in the paper
 
-**Star algorithm for NN ensembling**
+**[Star algorithm for NN ensembling](https://arxiv.org/abs/2206.00255)**
 
 by Zinchenko Sergey and Dmitry Lishudi
 
