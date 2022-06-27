@@ -6,6 +6,8 @@ This repository contains the code to reproduce the experiments in the paper
 
 by Zinchenko Sergey and Dmitry Lishudi
 
+ICML - [accepted](https://dynn-icml2022.github.io/index), NeurIPS - under review.
+
 ## Abstract
 
 Neural network ensembling is a common and robust way to increase model efficiency. In this paper, we propose a new neural network ensemble algorithm based on Audibert's empirical star algorithm. We provide optimal theoretical minimax bound on the excess squared risk. Additionally, we empirically study this algorithm on regression and classification tasks and compare it to most popular ensembling methods.
