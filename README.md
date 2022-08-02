@@ -74,6 +74,6 @@ MILLION SONG DATASET can be downloaded from the [link](https://archive.ics.uci.e
 
 (results after 25 epoch by using parameter d = 5)
 
-These scores are 10-11 according to the dataset FASHION MNIST in the [leaderboard](https://paperswithcode.com/sota/image-classification-on-fashion-mnist).
+These scores are 10-11 according to the dataset FASHION MNIST in the leaderboard (A link to the leaderboard will be provided in the final version)
 
 This table corresponds to the tables/FMNIST/FMNIST_ep(25)_p(0.0)_lr(0.001).csv
