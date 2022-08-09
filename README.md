@@ -2,9 +2,11 @@
 
 This repository contains the code to reproduce the experiments in the paper
 
-**[Star algorithm for NN ensembling]**
+**Star algorithm for NN ensembling**
 
-by Anonymous Author(s)
+by Sergey Zinchenko and Dmitry Lishudi
+
+ICML DyNN workshop 2022 - [accepted](https://dynn-icml2022.github.io/papers/paper_17.pdf), NeurIPS 2022 - under review
 
 
 ## Abstract
