@@ -6,7 +6,7 @@ This repository contains the code to reproduce the experiments in the paper
 
 by Sergey Zinchenko and Dmitry Lishudi
 
-ICML DyNN workshop 2022 - [accepted](https://dynn-icml2022.github.io/papers/paper_17.pdf), NeurIPS 2022 - under review
+ICML DyNN workshop 2022 - [accepted](https://dynn-icml2022.github.io/papers/paper_17.pdf), NeurIPS 2022 - reject:), AISTATS - under review
 
 
 ## Abstract
@@ -46,9 +46,9 @@ CUDA=11.3.1
 
 ## Data downloading
 
-BOSTON HOUSE PRICING downloading is handled by `sklearn.datasets`, FMNIST is hadled by `torch.torchvision`.
+`BOSTON HOUSE PRICING` downloading is handled by `sklearn.datasets`, `FMNIST` is hadled by `torch.torchvision`.
 
-MILLION SONG DATASET can be downloaded from the [link](https://archive.ics.uci.edu/ml/datasets/yearpredictionmsd).
+`MILLION SONG DATASET` can be downloaded from the [link](https://archive.ics.uci.edu/ml/datasets/yearpredictionmsd).
 
 
 ## File structure
@@ -74,8 +74,8 @@ MILLION SONG DATASET can be downloaded from the [link](https://archive.ics.uci.e
 | Classic Star (new wrmp) | 5 |   0.923   |   0.228   | 2239.0 |
 | Big NN                  | 5 |   0.910   |   0.481   | 1560.0 |
 
-(results after 25 epoch by using parameter d = 5)
+(results after `epochs=25` by using parameter `d = 5`)
 
-These scores are 10-11 according to the dataset FASHION MNIST in the leaderboard (A link to the leaderboard will be provided in the final version)
+These scores are 11-12 according to the dataset `FASHION MNIST` in the [leaderboard](https://paperswithcode.com/sota/image-classification-on-fashion-mnist). Note the fact that our model takes a few minutes to learn on a laptop.
 
-This table corresponds to the tables/FMNIST/FMNIST_ep(25)_p(0.0)_lr(0.001).csv
+This table corresponds to the `tables/FMNIST/FMNIST_ep(25)_p(0.0)_lr(0.001).csv`
