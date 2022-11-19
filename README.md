@@ -24,7 +24,7 @@ The algorithm proposed by us can be perceived as a new way of training neural ne
 
 ## Dependencies
 
-FMNIST & BOSTON:
+`FMNIST` & `BOSTON`:
 
 ```
 torch==1.10.2
@@ -34,7 +34,7 @@ pandas==1.4.1
 sklearn==1.0.2
 ```
 
-MILLION SONG:
+`MILLION SONG`:
 
 ```
 torch==1.11.0
@@ -74,7 +74,7 @@ CUDA=11.3.1
 | Classic Star (new wrmp) | 5 |   0.923   |   0.228   | 2239.0 |
 | Big NN                  | 5 |   0.910   |   0.481   | 1560.0 |
 
-(results after `epochs=25` by using parameter `d = 5`)
+(results after `epochs=25` by using parameter `d=5`)
 
 These scores are 11-12 according to the dataset `FASHION MNIST` in the [leaderboard](https://paperswithcode.com/sota/image-classification-on-fashion-mnist). Note the fact that our model takes a few minutes to learn on a laptop.
 
